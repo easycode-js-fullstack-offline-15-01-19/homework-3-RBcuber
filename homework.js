@@ -1,5 +1,5 @@
-// -------------------------- Home work --------------------------
-// -------------------------- ФИО --------------------------
+// -------------------------- Home work 3 --------------------------
+// -------------------------- Кириченко Игорь --------------------------
 
 
 
@@ -12,9 +12,7 @@ let newStr = '';
 
 for (let i = 0; i < str.length; i++) {
 
-    if (str[i - 1] === ' ') {
-        newStr += str[i].toUpperCase();
-    } else if (i === 0) {
+    if (str[i - 1] === ' ' || i === 0 ) {
         newStr += str[i].toUpperCase();
     } else {
         newStr += str[i];
@@ -55,9 +53,7 @@ let newStr3 = '';
 
 for (let i = 0; i < str3.length; i++) {
 
-    if (str3[i - 1] === ' ') {
-        newStr3 += str3[i].toUpperCase();
-    } else if (i === 0) {
+    if (str3[i - 1] === ' ' || i === 0 ) {
         newStr3 += str3[i].toUpperCase();
     } else if (str3[i] === ' ') {
     } else {
