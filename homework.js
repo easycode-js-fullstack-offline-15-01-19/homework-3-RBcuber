@@ -55,8 +55,7 @@ for (let i = 0; i < str3.length; i++) {
 
     if (str3[i - 1] === ' ' || i === 0 ) {
         newStr3 += str3[i].toUpperCase();
-    } else if (str3[i] === ' ') {
-    } else {
+    } else if (!(str3[i] === ' ')) {
         newStr3 += str3[i];
     }
 }
@@ -70,7 +69,7 @@ console.log(newStr3);
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 for (let value of arr) {
 
-    if (value % 2 === 1) {
+    if (value % 2) {
         console.log(value);
     }
 }
